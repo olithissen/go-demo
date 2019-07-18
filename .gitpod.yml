@@ -1,0 +1,6 @@
+checkoutLocation: "go/src/github.com/olithissen/go-demo"
+workspaceLocation: "."
+tasks:
+  - command: >
+      cd /workspace/go/src/github.com/olithissen/go-demo &&
+      go get -v ./... 
